@@ -22,7 +22,7 @@ namespace Company.Function
             
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
-
+            // testing comment
             updatedCounter = counter;
             updatedCounter.Count += 1;
 
